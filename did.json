@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:web:a449-2-206-140-99.ngrok-free.app",
+  "service": [
+    {
+      "id": "did:example:1708502522008",
+      "type": "DIDMessaging",
+      "serviceEndpoint": [
+        "https://example.com/path1"
+      ]
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "did:web:a449-2-206-140-99.ngrok-free.app#keys-5d586d34-0a87-44f4-997b-422cad3a9ecb",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:a449-2-206-140-99.ngrok-free.app",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "Ca9rYVuoGYuBeWYjf78Jm_ZO-8E0jCRW9OD6SQ70rOY",
+        "y": "6_SnFQVAZpSBAQyp3fR2-n6K_saoq5omfWa1RoF3wb4"
+      }
+    }
+  ],
+  "authentication": [],
+  "assertionMethod": [
+    "did:web:a449-2-206-140-99.ngrok-free.app#keys-5d586d34-0a87-44f4-997b-422cad3a9ecb"
+  ],
+  "keyAgreement": []
+}
