@@ -2,10 +2,10 @@
   "@context": [
     "https://www.w3.org/ns/did/v1"
   ],
-  "id": "did:web:raw.githubusercontent.com/miku2000/test-didjson/main",
+  "id": "did:web:raw.githubusercontent.com:miku2000:test-didjson:main",
   "service": [
     {
-      "id": "did:example:1708502522008",
+      "id": "did:example:1709134630282",
       "type": "DIDMessaging",
       "serviceEndpoint": [
         "https://example.com/path1"
@@ -14,20 +14,20 @@
   ],
   "verificationMethod": [
     {
-      "id": "did:web:raw.githubusercontent.com/miku2000/test-didjson/main#keys-5d586d34-0a87-44f4-997b-422cad3a9ecb",
+      "id": "did:web:raw.githubusercontent.com:miku2000:test-didjson:main#keys-7d418b13-b281-41f8-bcce-5828f64cd98a",
       "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com/miku2000/test-didjson/main",
+      "controller": "did:web:raw.githubusercontent.com:miku2000:test-didjson:main",
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "secp256k1",
-        "x": "Ca9rYVuoGYuBeWYjf78Jm_ZO-8E0jCRW9OD6SQ70rOY",
-        "y": "6_SnFQVAZpSBAQyp3fR2-n6K_saoq5omfWa1RoF3wb4"
+        "x": "MVHFBJCm3Xizp_rd3JSkkU9gnikoMEXHKZjAaE2BA2o",
+        "y": "JnWhk-J-sORL_KMfv16PyrgzNM2G5MltCk5SGJgLz48"
       }
     }
   ],
   "authentication": [],
   "assertionMethod": [
-    "did:web:raw.githubusercontent.com/miku2000/test-didjson/main#keys-5d586d34-0a87-44f4-997b-422cad3a9ecb"
+    "did:web:raw.githubusercontent.com:miku2000:test-didjson:main#keys-7d418b13-b281-41f8-bcce-5828f64cd98a"
   ],
   "keyAgreement": []
 }
